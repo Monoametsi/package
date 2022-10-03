@@ -6,7 +6,7 @@ import { Page2 } from './pages/page2/page-2';
 
 const App: React.FunctionComponent<any> = () => {
   return (
-    // <BrowserRouter>
+    //<BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate replace to="/page-1" />} />
         <Route path="/page-1" element={<Page1 />} />
