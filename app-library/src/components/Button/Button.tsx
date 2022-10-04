@@ -12,7 +12,12 @@ const Button = (props: ButtonProps) => {
       <div className="pb-cont-cont">
           <div className="btn-cont">
              <Link to={props.link}>
-                <button className="btn" id="back">{props.btnText}</button>
+                <button className="btn">{props.btnText}</button>
+             </Link> 
+          </div>
+          <div className="btn-cont">
+             <Link to="page-2">
+                <button className="btn">Go to page 2</button>
              </Link> 
           </div>
       </div>
