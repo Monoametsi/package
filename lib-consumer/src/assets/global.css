@@ -5,15 +5,20 @@
 html,body{
     padding: 0;
     margin: 0;
-    /* height: 100%; */
+    height: 100%;
 }
 
 .pb-sect{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100%; */
+    flex-direction: column;
+    height: 100%;
     padding: 8px;
+}
+
+.sect{
+    display: flex;
 }
 
 .pb-cont-cont{
