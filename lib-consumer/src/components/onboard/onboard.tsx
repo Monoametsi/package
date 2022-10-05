@@ -9,7 +9,7 @@ const Onboard = () => {
             <Button link={"page-1"} btnText="Page 1 tab"/> 
             <Button link={"page-2"} btnText="Page 2 tab"/> 
         </div>
-        <LibApp />
+        <LibApp txt="Page 134567890"/>
     </div>
     );
   };
