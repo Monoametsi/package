@@ -5,14 +5,9 @@ export interface ButtonProps {
   link: string;
   page: string;
   btnText: string;
-  clicked: Function;
 }
 
 const Button = (props: ButtonProps) => {
-
-  const eventListener = (e: any) => {
-    props.clicked('key', e);
-  }
 
   return (
     <div className="pb-sect">
@@ -20,7 +15,7 @@ const Button = (props: ButtonProps) => {
          <h1>{[props.page]}</h1>
           <div className="btn-cont">
              <Link to={props.link}>
-                <button className="btn" onClick={eventListener}>{props.btnText}</button>
+                <button className="btn">{props.btnText}</button>
              </Link> 
           </div>
       </div>

@@ -4,15 +4,11 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 import { Page1 } from './pages/page1/page-1';
 import { Page2 } from './pages/page2/page-2';
 
-const App: React.FunctionComponent<any> = (props) => {
-  const eventListener = (e: any) => {
-    props.clicked('key', e);
-  }
-  
+const App: React.FunctionComponent<any> = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate replace to="page-1" />} />
-      <Route path="page-1" element={<Page1 clicked={eventListener}/>} />
+      <Route path="page-1" element={<Page1 />} />
       <Route path="page-2" element={<Page2 />} />
     </Routes>
   );
