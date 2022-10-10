@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { App as LibApp } from '@Monoametsi/app-library';
-
+import { Link } from "react-router-dom"
 interface ButtonProps {
   link: string;
   btnText: string
