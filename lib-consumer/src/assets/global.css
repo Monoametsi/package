@@ -45,7 +45,6 @@ html,body{
     outline: none;
     border-radius: 5px;
     width: 100%;
-    max-width: 300px !important;
 }
 
 .btn:hover{

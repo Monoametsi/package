@@ -6,12 +6,11 @@ const Onboard = () => {
     return (
     <div className="pb-sect">
         <div className="sect">
-            <Button link={"page-1"} btnText="Page 1 tab"/> 
-            <Button link={"page-2"} btnText="Page 2 tab"/> 
+            <Button link={"/page-3"} btnText="Consumer side"/> 
         </div>
         <Onboarding />
     </div>
     );
-  };
-  
+};
+
   export default Onboard;

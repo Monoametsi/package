@@ -1,7 +1,7 @@
 const webpack = require('webpack');
-module.exports = function override(config, env) {
-    //do stuff with the webpack config...
 
+module.exports = function override(config, env) {
+    console.log("React app rewired works!")
     config.resolve.fallback = {
         assert: require.resolve("assert/"),
         util: require.resolve("util/"),

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ikhokha/onboard": "^0.0.0-2030",
+    "@ikhokha/onboard": "^0.0.0-2043",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -19,7 +19,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "stream": "npm:stream-browserify",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
@@ -56,7 +56,7 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "react-app-rewired": "^2.2.1",
-    "webpack": "^4.41.0",
+    "webpack": "^4.28.3",
     "webpack-cli": "^4.9.2"
   }
 }
